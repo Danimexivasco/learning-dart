@@ -4,31 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-class Person {
-  final String name;
-  final String lastName;
-  final int age;
-
-  Person(this.name, this.lastName, this.age);
-
-  void presentation() {
-    print("I'm $name $lastName and I'm $age years old!");
-  }
-
-  void run() {
-    print("Running");
-  }
-
-  void breathe() {
-    print("Breathing");
-  }
-}
-
-void test() {
-  final person = Person("Daniel", "Cano", 30);
-  person.breathe();
-  person.presentation();
-}
+void test() {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
